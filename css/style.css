@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: "work-sans", sans-serif;
+}
+
+form {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img {
+    width: 132px;
+    height: 105px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  margin-bottom: 20px;
+}
+fieldset {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 50%;
+}
+p {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+input {
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input label {
+  margin-bottom: 5px;
+  display: block;
+  font-weight: 600;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid #4a90e2;
+}
+input:valid {
+  border: 1px solid #bad9fcff;
+}
+input:invalid {
+  border: 1px solid #ff6b6bff;
+}
+
+.btn_subimit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn_subimit:hover {
+  background-color: #f2f2f2;
+  color: #4caf50;
+}
+
+.btn_reset {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn_reset:hover {
+  background-color: #f2f2f2;
+  color: #f44336;
+}
+
+@media (max-width: 475px) {
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  fieldset {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  textarea{
+    width: 100%;
+  }
+}
