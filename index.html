@@ -133,7 +133,12 @@
         <fieldset>
           <legend>Hábitos</legend>
           <p>Redes Sociais</p>
-          <input id="instagram" type="checkbox" name="social" value="instagram" />
+          <input
+            id="instagram"
+            type="checkbox"
+            name="social"
+            value="instagram"
+          />
           <label for="instagram">Instagram</label>
           <br />
           <input id="facebook" type="checkbox" name="social" value="facebook" />
@@ -144,19 +149,39 @@
           <br />
           <input id="x" type="checkbox" name="social" value="x" />
           <label for="x">X</label>
-          <br/>
+          <br />
           <label for="musicStyle">Estilo musical:</label>
-          <input  list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
+          <input
+            list="styleTypes"
+            id="musicStyle"
+            name="userMusicStyle"
+            type="text"
+          />
           <datalist id="styleTypes">
-            <option value="Rock">
-            <option value="Pop"> 
-            <option value="Samba">
-            <option value="Sertanejo">
+            <option value="Rock"></option>
+            <option value="Pop"></option>
+            <option value="Samba"></option>
+            <option value="Sertanejo"></option>
           </datalist>
-          <br>
+
+          <br />
           <label for="favoritecolor">Cor favorita</label>
-          <input name="userFavoriteColor" id="favoritecolor" type="color">
-          
+          <input name="userFavoriteColor" id="favoritecolor" type="color" />
+        </fieldset>
+        <fieldset>
+          <legend>Deixe sua Opinião</legend>
+          <p>Como você avalia nosso site?</p>
+          <input id="boa" type="radio" name="userOpinion" value="boa"/>
+          <label for="boa">Boa</label>
+
+          <input id="otima" type="radio" name="userOpinion" value="otima"/>
+          <label for="otima">Ótima</label>
+
+          <input id="regular" type="radio" name="userOpinion" value="regular"/>
+          <label for="regular">Regular</label>
+
+          <input id="ruim" type="radio" name="userOpinion" value="ruim"/>
+          <label for="ruim">Ruim</label>
 
         </fieldset>
         <button type="submit">Enviar</button>
