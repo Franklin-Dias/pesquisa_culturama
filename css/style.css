@@ -71,6 +71,15 @@ input:invalid {
   border: 1px solid #ff6b6bff;
 }
 
+input[type="tel"], input[type="file"]{
+  margin-bottom: 0;
+}
+
+small{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 .btn_subimit {
   background-color: #4caf50;
   color: white;
