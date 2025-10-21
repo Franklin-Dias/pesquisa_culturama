@@ -65,13 +65,15 @@
           <br />
           <label for="phone">Telefone</label>
           <input
+            
             id="phone"
             type="tel"
             name="userPhoneNumber"
-            placeholder="Digite seu telefone"
+            placeholder="DDD + número de telefone"
             required
-            pattern="[0-9]{11}"
+            pattern="[0-9]{11}" aria-describedby="phoneHelp"
           />
+          <small id="phoneHelp">Preencha com 11 digitos no formato: DDD + números sem espaços ou hífen. </small>
           <br />
           <label for="image">Upload de Foto</label>
           <input id="image" type="file" accept="image/*" name="userImage" />
