@@ -71,7 +71,7 @@ input:invalid {
   border: 1px solid #ff6b6bff;
 }
 
-input[type="tel"]{
+input[type="tel"], input[type="file"]{
   margin-bottom: 0;
 }
 
