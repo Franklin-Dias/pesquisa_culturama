@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.theme-height-contrast {
+  color: #333333;
+  background-color: #fff;
+}
+html {
+  font-size: 100%;
+}
+
 body {
   background-color: #f9f9f9;
   padding: 20px;
@@ -18,13 +26,14 @@ form {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 img {
-    width: 132px;
-    height: 105px;
-    display: block;
-    margin: 0 auto 20px auto;
+  width: 132px;
+  height: 105px;
+  display: block;
+  margin: 0 auto 20px auto;
 }
 h1 {
   font-family: "Fjalla One", sans-serif;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 fieldset {
@@ -36,6 +45,7 @@ fieldset {
 p {
   margin-bottom: 10px;
   font-weight: 400;
+  font-size: 1rem;
 }
 
 input {
@@ -71,11 +81,12 @@ input:invalid {
   border: 1px solid #ff6b6bff;
 }
 
-input[type="tel"], input[type="file"]{
+input[type="tel"],
+input[type="file"] {
   margin-bottom: 0;
 }
 
-small{
+small {
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -118,8 +129,8 @@ small{
     width: 100%;
     padding: 8px;
   }
-  
-  textarea{
+
+  textarea {
     width: 100%;
   }
 }
